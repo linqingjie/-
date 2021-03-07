@@ -1,0 +1,99 @@
+.myOrder{
+    .title {
+       /deep/.van-nav-bar__text,
+    .van-nav-bar__title {
+      color: #646566;
+    }
+    /deep/.van-nav-bar__text,
+    .van-nav-bar .van-icon {
+      color: #007751;
+    }
+    /deep/.van-nav-bar .van-icon {
+      color: #007751;
+    }
+  }
+  .orderDetails{
+      border-bottom: 10px solid #F7F7F7;
+  }
+   .commodity{
+        margin: 10px 15px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+        // max-height: 250px;
+        overflow: hidden;
+        .title{
+            width: 100%;
+            margin-bottom: 5px;
+            line-height: 40px;
+            display: flex;
+            justify-content: space-between;
+            .rg{
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                span{display: block;
+                    &:nth-child(2){
+                        margin-left: 10px;
+                    }
+                    img{
+                        height: 20px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        /deep/.van-card__title{
+            font-size: 14px;
+            font-weight: bold;
+            color: #646566;
+        }
+        /deep/.van-card__desc{
+            font-size: 12px;
+            color: #A89A9A;
+        }
+        /deep/.van-tag--danger.van-tag--plain{
+            font-size: 12px;
+            margin-top: 10px;
+            color: #A89A9A;
+        }
+        /deep/.van-card__price{
+            font-size: 14px;
+            color: #007751;
+            font-weight: bold;
+        }
+        /deep/.van-card{
+           padding: 10px 0;
+           border-bottom: 1px solid #e8e8ee;
+           background-color: white;
+           margin-top: 2px;
+           &:last-child{
+            border: none;
+           }
+        }
+    }
+      .total{
+        margin: 10px 15px 0 15px;
+        border-radius: 5px;
+        padding: 5px 5px;
+        padding-bottom: 10px;
+         background-color: #ffffff;
+         h2{
+             line-height: 40px;
+         }
+         div{
+            display: flex;
+            justify-content: space-between;
+             span{
+                 display: block;
+                 font-size: 14px;
+                 line-height: 20px;
+                 &:nth-child(2){
+                     font-size: 16px;
+                     color: #007751;
+                     font-weight: bold;
+                 }
+             }
+         }
+    }
+}

@@ -1,0 +1,62 @@
+.menu{
+    width: 100vw;
+    .titles{
+        // width: 92vw;
+        overflow: hidden;
+        display: flex;
+        padding: 10px 15px;
+        height: 40px;
+        box-sizing: content-box;
+        background-color: white;
+        .lf{
+            flex: 2;
+            img{
+                display: block;
+                height: 100%;
+            }
+        }
+        .rg{
+            flex: 10;
+            /deep/.van-search{
+                padding: 0;
+            }
+            /deep/.van-search__content{
+                height: 40px;
+            }
+            /deep/.van-icon:nth-child(1){
+                padding-top: 4px;
+                color: #007751;
+            }
+            /deep/.van-icon:nth-child(2){
+                color: #007751;
+            }
+            /deep/.van-cell__value--alone{
+                padding-top: 4px;
+            }
+        }
+    }
+    .tabType{
+      /deep/.van-tabbar--unfit{
+          padding: 10px 0 ;
+          background-color: #F7F7F7;
+      }
+      /deep/.van-tabbar-item--active{
+          background:none;
+      }
+      /deep/.van-tabbar-item__icon img{
+          height: 30px;
+      }
+    }
+    .commodity{
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 100vw;
+       .detail{
+           width: 49%;
+           box-shadow: 0px 1px 8px #e8e8e8;
+       }
+    }
+}

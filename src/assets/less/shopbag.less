@@ -1,0 +1,107 @@
+.shopbag{
+    padding-bottom: 50px;
+    .title{
+        /deep/.van-nav-bar__text,.van-nav-bar__title{
+            color: #646566;
+        }
+        /deep/.van-nav-bar__text,.van-icon{
+             color: #007751;
+         }
+    }
+    .box{
+        background-color: white;
+        margin: 15px 15px;
+        border-radius: 5px;
+        /deep/.van-swipe-cell{
+            box-shadow: 0px 1px 4px #e8e8e8;
+             /deep/.van-swipe-cell__wrapper{
+                 width: 100%;
+                 display: flex;
+                 .lf{
+                     padding: 0 5px;
+                     flex: 1;
+                     display: flex;
+                     align-items: center;
+                 }
+                 .rg{
+                     flex: 11;
+                 }
+             }
+        }
+        /deep/.van-card{
+            background-color: white;
+            padding-left: 0;
+            position: relative;
+            .van-tag{
+                margin-left: 10px;
+                color: #999999;
+                margin: 0 10px 0 0;
+            }
+        }
+        /deep/.van-card__footer{
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+        }
+        /deep/.van-card__num{
+            position: absolute;
+            right: 80px;
+            bottom: 0px;
+        }
+    }
+    /deep/.van-submit-bar{
+        margin-bottom: 50px;
+    }
+    /deep/.van-stepper--round .van-stepper__minus {
+        color: #007751;
+        border: 0.02667rem solid #007751;
+    }
+    /deep/.van-stepper--round .van-stepper__plus{
+         background-color: #007751;
+    }
+    /deep/.van-card__price{
+         font-size: 14px;
+         font-weight: bolder;
+         color: #007751;
+    }
+    /deep/.van-card__title {
+         font-size: 14px;
+         font-weight: bolder;
+         color: #646566;
+    }
+    /deep/.van-stepper__input{
+         color: #646566;
+    }
+    /deep/.van-card__desc{
+        width: 100%;
+         color: #646566;
+    }
+    /deep/.van-card__content{
+        width: 100px;
+         color: #646566;
+    }
+
+    /deep/.van-checkbox__icon--checked .van-icon {
+    color: #fff;
+    background-color: #007751;
+    border-color: #007751;
+    }
+    /deep/.van-submit-bar__price{
+        color: #007751;
+    }
+    /deep/.van-button--danger{
+        height: 100%;
+    }
+    /deep/.van-submit-bar__bar{
+        position: relative;
+
+        /deep/.van-checkbox{
+            position: absolute;
+            left: 18px;
+        }
+    }
+    /deep/.van-checkbox-group{
+        margin-bottom: 10px;
+    }
+
+}
