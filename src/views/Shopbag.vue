@@ -439,6 +439,7 @@ export default {
       }
       this.amount = amount * 100;
     },
+    handleFn(){}
   },
   created() {
     this.cmdData();
