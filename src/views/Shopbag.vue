@@ -439,7 +439,9 @@ export default {
       }
       this.amount = amount * 100;
     },
-    handleFn(){}
+    handleFn(){
+      console.log('分支上的修改')
+    }
   },
   created() {
     this.cmdData();
