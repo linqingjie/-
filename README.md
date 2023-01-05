@@ -46,7 +46,7 @@ console.log('大片代码块')
 
 - [1,2,3]
 - - 11111
-
+注释[^这个是注释]
 2021-01-27T03:10:53.806566Z 0 [System] [MY-013169] [Server] C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.12) initializing of server in progress as process 5676
 2021-01-27T03:10:58.147165Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: 2YGwhHywp2_#
 2021-01-27T03:10:59.630674Z 0 [System] [MY-013170] [Server] C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.12) initializing of server has completed
